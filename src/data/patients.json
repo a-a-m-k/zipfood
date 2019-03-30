@@ -235,37 +235,37 @@
       "active": [
         {
           "id": 3,
-          "date": "Fri Dec 25 2009 02:00:00 GMT+0300",
+          "date": "Baked Honey Mustard Chicken",
           "status": "active",
           "doctor": "Patrick Ray",
-          "drugs": "Bronson Vitamin A 10,000 IU Premium Non-GMO",
+          "drugs": "chicken breast halves, pepper, honey, mustard, paprika, dried parsley",
           "sig": "2 tablets per day"
         },
         {
           "id": 2,
-          "date": "Sat Dec 12 2009 02:00:00 GMT+0300",
+          "date": "Haricot beans with sausage & pancetta",
           "status": "active",
           "doctor": "Patrick Ray",
-          "drugs": "Vitamin K2 + D3 with Organic Coconut Oil",
+          "drugs": "dried haricot bean, carrots, onions, boquet garni, parsley sprigs, sage sprigs, olive oil, flat-leaf parsley",
           "sig": "2 tablets per day"
         }
       ],
       "history": [
         {
           "id": 1,
-          "startDate": "Mon Jul 24 2017 03:00:00 GMT+0300",
+          "startDate": "Twice-cooked sticky duck",
           "doctor": "John Fox",
-          "stopDate": "Tue Oct 24 2017 03:00:00 GMT+0300",
+          "stopDate": "Twice-cooked sticky duck",
           "stopBy": "John Fox",
-          "drugs": "Vitamin B12 with injections"
+          "drugs": "strip pared orange zest, duck legs, garlic cloves, sliced ginger, dark soy sauce, halved and sliced cucumber, coriander leaves, honey, chineese five-spice powder"
         },
         {
           "id": 0,
-          "startDate": "Sun Mar 05 2017 02:00:00 GMT+0300",
+          "startDate": "Easy tomato and pepper low fat soup",
           "doctor": "John Fox",
-          "stopDate": "Thu Jun 08 2017 03:00:00 GMT+0300",
+          "stopDate": "Easy tomato and pepper low fat soup",
           "stopBy": "John Fox",
-          "drugs": "Multivitamin complex 90 caps"
+          "drugs": "two onions chopped, yellow peppers, 2 cloves garic, 3 teaspoons of dried herbs, fat cooking spray"
         }
       ]
     },
@@ -312,37 +312,37 @@
       "active": [
         {
           "id": 3,
-          "date": "Mon Feb 05 2018 02:00:00 GMT+0300",
+          "date": "Slow cooker madras chicken curry",
           "status": "active",
           "doctor": "John Fox",
-          "drugs": "Nature Made Vitamin D3 2000 IU Tablets 220",
+          "drugs": "vegetable oil, tomato puree, water, garlic(minced), small onions, salt, plain yoghurt",
           "sig": "2 tablets per day"
         },
         {
           "id": 2,
-          "date": "Tue Sep 12 2017 03:00:00 GMT+0300",
+          "date": "Sage and Onion Stuffing",
           "status": "active",
           "doctor": "John Fox",
-          "drugs": "Vitamin K2 + D3 with Organic Coconut Oil",
+          "drugs": "white bread, butter, large onion, eggs, dessertspoon of dried sage, chicken stock, celery, salt and pepper",
           "sig": "2 tablets per day"
         }
       ],
       "history": [
         {
           "id": 1,
-          "startDate": "Wed Jul 05 2017 03:00:00 GMT+0300",
+          "startDate": "Teriyaki salmon with sesame pak choi",
           "doctor": "John Fox",
-          "stopDate": "Sat Aug 05 2017 03:00:00 GMT+0300",
+          "stopDate": "Teriyaki salmon with sesame pak choi",
           "stopBy": "John Fox",
-          "drugs": "Vitamin B12 with injections"
+          "drugs": "salmon fillets, sweet chili sauce, dry cherry, brown rice, vegetable oil, sesame oil, fish and vegetable stock "
         },
         {
           "id": 0,
-          "startDate": "Fri May 05 2017 03:00:00 GMT+0300",
+          "startDate": "Beef Burgundy",
           "doctor": "John Fox",
-          "stopDate": "Sat Aug 05 2017 03:00:00 GMT+0300",
+          "stopDate": "Beef Burgundy",
           "stopBy": "John Fox",
-          "drugs": "Multivitamin complex 90 caps"
+          "drugs": "stewing steak, red wine, fresh parsley, thyme, leaf, butter, flour, beef stock, salt and pepper, button mushrooms"
         }
       ]
     },
