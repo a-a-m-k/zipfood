@@ -9,7 +9,7 @@ export class MedicationsTableHistoryComponent implements OnChanges {
   @Input() patient;
 
   constructor() { }
-  displayedColumns = ["id", "drugs", "startDate", "stopBy"];
+  displayedColumns = ["id", "drugs", "startDate", "stopBy", "review"];
   dataSource;
 
   ngOnChanges() {
