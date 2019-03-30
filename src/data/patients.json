@@ -1,7 +1,7 @@
 [
   {
     "id": "1",
-    "firstName": "John",
+    "firstName": "Jakob",
     "lastName": "Doe",
     "sex": "male",
     "birthData": "21.12.1968",
@@ -18,45 +18,45 @@
       "active": [
         {
           "id": 4,
-          "date": "Thu Nov 02 2017 02:00:00 GMT+0300",
+          "date": "Pancakes with honey",
           "status": "active",
           "doctor": "John Fox",
-          "drugs": "Vitamin K2 + D3 with Organic Coconut Oil",
+          "drugs": "flour, milk, vanilla sugar, topping(honey)",
           "sig": "2 tablets per day"
         },
         {
           "id": 3,
-          "date": "Fri Jul 13 2018 16:44:20 GMT+0300",
+          "date": "Fried chicken wings",
           "status": "active",
           "doctor": "Patrick Ray",
-          "drugs": "Bronson Vitamin A 10,000 IU Premium Non-GMO",
+          "drugs": "chicken wings, kosher salt, oil, buffalo sauce, pepper",
           "sig": "2 tablets per day"
         },
         {
           "id": 2,
-          "date": "Fri Jul 13 2018 16:40:20 GMT+0300",
+          "date": "Lamb and kidney casserole",
           "status": "active",
           "doctor": "John Fox",
-          "drugs": "Vitamin K2 + D3 with Organic Coconut Oil",
+          "drugs": "lemon juice, dried rosemary, garlic, chicken breast fillets, tomatoes, lamb stock",
           "sig": "2 tablets per day"
         }
       ],
       "history": [
         {
           "id": 1,
-          "startDate": "Fri Jul 13 2018 16:44:20 GMT+0300",
+          "startDate": "Chocolate macaroon cake",
           "doctor": "John Fox",
           "stopDate": "Fri Jul 13 2018 16:44:20 GMT+0300",
           "stopBy": "John Fox",
-          "drugs": "Vitamin B12 with injections"
+          "drugs": "egg white, sugar, vanilla extract, cocoa powder, milk"
         },
         {
           "id": 0,
-          "startDate": "Fri Jul 13 2018 16:44:20 GMT+0300",
+          "startDate": "Stir-fried scallops and prawns",
           "doctor": "John Fox",
           "stopDate": "Fri Jul 13 2018 16:44:20 GMT+0300",
           "stopBy": "John Fox",
-          "drugs": "Multivitamin complex 50 caps"
+          "drugs": "juice of 1 lemon, dried wakame seaweed, raw tiger prawns ,soy sauce"
         }
       ]
     },
@@ -81,37 +81,37 @@
       "active": [
         {
           "id": 3,
-          "date": "Fri Oct 23 2015 23:33:05 GMT+0300",
+          "date": "Soup with mushrooms",
           "status": "active",
           "doctor": "Ros Smith",
-          "drugs": "Calcium D3 Nycomed",
+          "drugs": "mushrooms, butter, water, porrige, ham, salad, salt and pepper",
           "sig": "3 tablets per day"
         },
         {
           "id": 2,
-          "date": "Tue Feb 21 2017 04:57:18 GMT+0300",
+          "date": "Beef, courgette and tomato soup",
           "status": "active",
           "doctor": "Patrick Ray",
-          "drugs": "Bronson Vitamin A 10,000 IU Premium Non-GMO",
+          "drugs": " tomatoes, packets beef, chopped onion, minced beef, pasta",
           "sig": "2 tablets per day"
         }
       ],
       "history": [
         {
           "id": 1,
-          "startDate": "Wed Feb 17 2016 03:03:01 GMT+0300",
+          "startDate": "Green bean minestrone",
           "doctor": "John Fox",
-          "stopDate": "Mar 12 2016 02:00:00 GMT+0300",
+          "stopDate": "Green bean minestrone",
           "stopBy": "John Fox",
-          "drugs": "Vitamin B12 with injections"
+          "drugs": "onion, carrot, garlic, celery, olives, leaf, bread, pasta"
         },
         {
           "id": 0,
-          "startDate": "Wed Sep 16 2015 09:35:51 GMT+0300",
+          "startDate": "The best chunky spaghetti Bolognese",
           "doctor": "John Fox",
-          "stopDate": "Thu Dec 17 2015 03:00:00 GMT+0300",
+          "stopDate": "The best chunky spaghetti Bolognese",
           "stopBy": "John Fox",
-          "drugs": "Multivitamin complex 90 caps"
+          "drugs": "onions, beef, garlic, red pepper, 200g mushrooms, bolognese sauce, spaghetti, oregano"
         }
       ]
     },
@@ -136,7 +136,7 @@
         "diagnose": "Sed elementum ultricies nibh, et blandit urna blandit eu. Mauris accumsan, erat id pulvinar vehicula, lectus dolor facilisis eros, vitae mollis dolor sem a ligula. Fusce ultricies, turpis vitae maximus cursus, nisl sapien vehicula sapien, et fringilla lacus magna in turpis. Etiam eros risus, mollis ut placerat a, tristique et elit.",
         "date": "Mon Feb 27 2017 13:50:04 GMT+0300",
         "resolved": ""
-      }   
+      }
     ]
   },
   {
@@ -158,37 +158,37 @@
       "active": [
         {
           "id": 3,
-          "date": "Wed Nov 13 2013 02:00:00 GMT+0300",
+          "date": "Curried Potato Turnovers",
           "status": "active",
           "doctor": "Patrick Ray",
-          "drugs": "Life Extension Bio-Active Complete B-Complex",
+          "drugs": "potatoes, milk, butter, oil, frozen peas, crushed garlic, cumin seeds, eggnog, coriander seeds",
           "sig": "2 tablets per day"
         },
         {
           "id": 2,
-          "date": "Fri Dec 25 2009 02:00:00 GMT+0300",
+          "date": "Refreshing Watermelon and Feta Salad",
           "status": "active",
           "doctor": "Patrick Ray",
-          "drugs": "Bronson Vitamin A 10,000 IU Premium Non-GMO",
+          "drugs": "Juice of 2 limes, red onion, watermelon, feta cheese, olive oil, salt and pepper",
           "sig": "2 tablets per day"
         }
       ],
       "history": [
         {
           "id": 1,
-          "startDate": "Mon Jul 17 2017 03:00:00 GMT+0300",
+          "startDate": "Basic Pasta Salad",
           "doctor": "John Fox",
           "stopDate": "Sun Sep 17 2017 03:00:00 GMT+0300",
           "stopBy": "John Fox",
-          "drugs": "Vitamin B12 with injections"
+          "drugs": "penne pasta, cucumbers, mayonnaise, sour cream, dried dill, lemon pepper"
         },
         {
           "id": 0,
-          "startDate": "Sun Feb 05 2017 02:00:00 GMT+0300",
+          "startDate": "Cabbage peanut salad",
           "doctor": "John Fox",
-          "stopDate": "Wed May 24 2017 03:00:00 GMT+0300",
+          "stopDate": "Cabbage peanut salad",
           "stopBy": "John Fox",
-          "drugs": "Multivitamin complex 90 caps"
+          "drugs": "seisame oil, apple vinegar, roasted peanuts, head of cabbage, fresh mint leaves, cut cucumbers"
         }
       ]
     },
@@ -197,7 +197,7 @@
         "id": 2,
         "name": "Vitaminoz",
         "diagnose": "Astringents conjunctivitis fatty acids genetics glycogen intensive care unit ketones lung function tests occupational therapist plaque prosthesis rescue medications ultrasound. Aerobic activity alcoholism allergen allergist carbohydrate constipation diarrhea exhale external otitis",
-        "date": "Tue Nov 26 2013 02:00:00 GMT+0300",
+        "date": "Sweet pumpkin and apricot cakes",
         "resolved": ""
       },
       {
