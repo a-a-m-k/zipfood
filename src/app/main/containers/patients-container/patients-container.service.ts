@@ -1,23 +1,20 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { Observable, Subject } from 'rxjs';
-import { environment } from '../../../../environments/environment';
+// import { environment } from './../../../../assets/patients.json' ;
+
 
 @Injectable()
 export class PatientsContainerService {
 
   constructor(private http: HttpClient) {
-    this.getJSON().subscribe(data => {
-      this.patients = [...data];
+    this.http.get('./../../../../assets/patients.json').subscribe(data => {
+      this.patients = data as string [];
       this.subject.next(this.patients);
     });
    }
   patients;
   private subject = new Subject<any>();
-
-  getJSON(): Observable<any> {
-    return this.http.get(`${environment.apiUrl}/patients`);
-  }
 
   updatePatients(updatedPatient) {
     this.patients = this.patients.map(patient => {

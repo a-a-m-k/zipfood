@@ -4,6 +4,6 @@
     [ngClass]="{'active': isActive(patient.id)}"
     *ngFor="let patient of sortedPatients; trackBy: trackById" 
     (click)='selectPatient(patient.id)'>
-    {{patient.firstName}} {{patient.lastName}}
+    {{patient.medication.active[0].date}}
   </mat-list-item>
 </mat-nav-list>
