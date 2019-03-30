@@ -1,0 +1,11 @@
+<mat-tab-group class="demo-tab-group">
+  <mat-tab label="Info">
+    <app-patient-info [patient]="patient">
+    </app-patient-info>
+  </mat-tab>
+  <mat-tab label="Order Courses">
+    <h1 class="tab-title"> Order Courses</h1>
+    <app-medications [patient]="patient">
+    </app-medications>
+  </mat-tab>
+</mat-tab-group>

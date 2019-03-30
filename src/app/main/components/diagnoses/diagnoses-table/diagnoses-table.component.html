@@ -1,0 +1,65 @@
+<form *ngIf="diagnoses[0]" [formGroup]="myForm" (ngSubmit)="onSubmit(myForm)" >
+  <table mat-table [dataSource]="dataSource" class="mat-elevation-z8">
+
+    <ng-container matColumnDef="name">
+      <th mat-header-cell *matHeaderCellDef> Name </th>
+      <td mat-cell (click)="selectDiagnose(element.id)" *matCellDef="let element"> 
+        <span *ngIf="rowToEdit !== element.id">{{element.name}} </span>
+        <span *ngIf="rowToEdit === element.id"> 
+          <mat-form-field>
+            <input matInput formControlName="name" placeholder="Fill up a name">
+          </mat-form-field>
+        </span>
+      </td>
+    </ng-container>
+
+    <ng-container matColumnDef="diagnose">
+      <th mat-header-cell *matHeaderCellDef> Diagnose </th>
+      <td mat-cell (click)="selectDiagnose(element.id)" *matCellDef="let element"> 
+        <span *ngIf="rowToEdit !== element.id"> {{element.diagnose}} </span>
+        <span *ngIf="rowToEdit === element.id">
+          <mat-form-field class="diagnose-field">
+            <textarea matInput formControlName="diagnose" placeholder="Fill up a diagnose"></textarea>
+          </mat-form-field>
+        </span>
+      </td>
+    </ng-container>
+
+    <ng-container matColumnDef="date">
+      <th mat-header-cell *matHeaderCellDef> Date </th>
+      <td mat-cell (click)="selectDiagnose(element.id)" *matCellDef="let element"> {{element.date | date:'short'}} </td>
+    </ng-container>
+
+    <ng-container matColumnDef="resolved">
+      <th mat-header-cell *matHeaderCellDef> Resolved </th>
+      <td mat-cell (click)="selectDiagnose(element.id)" *matCellDef="let element"> 
+        <span *ngIf="rowToEdit !== element.id"> {{element.resolved}} </span>
+        <span *ngIf="rowToEdit === element.id">
+          <mat-form-field>
+            <input matInput formControlName="resolved" placeholder="Fill up a status">
+          </mat-form-field>
+        </span>
+         </td>
+    </ng-container>
+
+    <ng-container matColumnDef="actions">
+      <th mat-header-cell *matHeaderCellDef> Actions </th>
+      <td mat-cell class="actions-column" *matCellDef="let element">
+        <button mat-icon-button [disabled]="myForm.pristine || myForm.invalid" type="submit" *ngIf="rowToEdit === element.id">
+          <mat-icon class="material-icons">
+            done
+          </mat-icon>
+        </button>
+        <button mat-icon-button *ngIf="rowToEdit === element.id" (click)="cancel()">
+          <mat-icon class="material-icons">
+            undo
+          </mat-icon>
+        </button>
+      </td>
+    </ng-container>
+
+    <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+    <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+  </table>
+</form>
+<mat-card class="no-diagnoses-card" *ngIf="!diagnoses[0]"> You don't have any diagnoses yet.</mat-card>

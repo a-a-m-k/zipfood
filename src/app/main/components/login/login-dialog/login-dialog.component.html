@@ -1,0 +1,23 @@
+<form [formGroup]="loginForm" (ngSubmit)="submit(loginForm)">
+  <h2 mat-dialog-title>Login</h2>  
+  <mat-dialog-content>    
+    <app-input 
+      formControlName="login" 
+      placeholder="Email" 
+      type="email">
+    </app-input>
+    <div class="error" *ngIf="loginForm.get('login').invalid && loginForm.get('login').dirty">Not a valid email</div>
+    <br>
+    <app-input 
+      formControlName="password" 
+      placeholder="Password" 
+      type="password">
+    </app-input>
+    <div class="error" *ngIf="loginForm.get('password').invalid && loginForm.get('password').dirty">Not a valid password</div>
+  </mat-dialog-content>
+  <div class="error" *ngIf="errorMessage">{{errorMessage}}</div>
+  <mat-dialog-actions>
+    <button class="mat-raised-button mat-primary" [disabled]="!loginForm.valid"  type="submit">Submit</button>
+    <button class="mat-raised-button" (click)="close()" type="button">Cancel</button>
+  </mat-dialog-actions>
+</form>

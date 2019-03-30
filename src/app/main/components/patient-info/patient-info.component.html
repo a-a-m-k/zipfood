@@ -1,0 +1,120 @@
+<h1 class="info-title">Food Providers</h1>
+<mat-card class="info-card">
+  <mat-card-header>
+    <mat-card-title class="card-title">{{ fullName }}</mat-card-title>
+  </mat-card-header>
+  <mat-card-content class="flex">
+    <div class="patient-info-container">
+      <div class="patient-icon-container">
+        <div appIconColor [patientIconColor]="iconColor" class="patient-icon">
+          <span>{{ initials }}</span>
+        </div>
+      </div>
+      <mat-list role="list" class="patient-list-container flex">
+        <mat-list-item role="listitem" class="list-column-container">
+          <div class="list-item-container flex">
+            <div class="list-item-title">
+              <span>Gender:</span>
+            </div>
+            <div class="list-item-value">
+              <span>{{ patient.sex }}</span>
+            </div>
+          </div>
+        </mat-list-item>
+        <mat-list-item role="listitem" class="list-column-container">
+          <div class="list-item-container flex">
+            <div class="list-item-title">
+              <span>Birth data:</span>
+            </div>
+            <div class="list-item-value">
+              <span>{{ patient.birthData }}</span>
+            </div>
+          </div>
+        </mat-list-item>
+        <mat-list-item role="listitem" class="list-column-container">
+          <div class="list-item-container flex">
+            <div class="list-item-title">
+              <span>Phone:</span>
+            </div>
+            <div class="list-item-value">
+              <span>{{ patient.phone }}</span>
+            </div>
+          </div>
+        </mat-list-item>
+        <mat-list-item role="listitem" class="list-column-container">
+          <div class="list-item-container flex">
+            <div class="list-item-title">
+              <span>Work phone:</span>
+            </div>
+            <div class="list-item-value">
+              <span>{{ patient.workPhone }}</span>
+            </div>
+          </div>
+        </mat-list-item>
+        <mat-list-item role="listitem" class="list-column-container">
+          <div class="list-item-container flex">
+            <div class="list-item-title">
+              <span>Email:</span>
+            </div>
+            <div class="list-item-value">
+              <span>{{ patient.email }}</span>
+            </div>
+          </div>
+        </mat-list-item>
+        <mat-list-item role="listitem" class="list-column-container">
+          <div class="list-item-container flex">
+            <div class="list-item-title">
+              <span>Business:</span>
+            </div>
+            <div class="list-item-value">
+              <span>{{ patient.business }}</span>
+            </div>
+          </div>
+        </mat-list-item>
+        <mat-list-item role="listitem" class="list-column-container">
+          <div class="list-item-container flex">
+            <div class="list-item-title">
+              <span>Zip:</span>
+            </div>
+            <div class="list-item-value">
+              <span>{{ patient.zip }}</span>
+            </div>
+          </div>
+        </mat-list-item>
+        <mat-list-item role="listitem" class="list-column-container">
+          <div class="list-item-container flex">
+            <div class="list-item-title">
+              <span>City:</span>
+            </div>
+            <div class="list-item-value">
+              <span>{{ patient.city }}</span>
+            </div>
+          </div>
+        </mat-list-item>
+        <mat-list-item role="listitem" class="list-column-container">
+          <div class="list-item-container flex">
+            <div class="list-item-title">
+              <span>Street:</span>
+            </div>
+            <div class="list-item-value">
+              <span>{{ patient.street }}</span>
+            </div>
+          </div>
+        </mat-list-item>
+        <mat-list-item role="listitem" class="list-column-container">
+          <div class="list-item-container flex">
+            <div class="list-item-title">
+              <span>House:</span>
+            </div>
+            <div class="list-item-value">
+              <span>{{ patient.house }}</span>
+            </div>
+          </div>
+        </mat-list-item>
+      </mat-list>
+    </div>
+    <div class="widgets-wrapper-container">
+      <app-widgets-wrapper [patient]="patient"></app-widgets-wrapper>
+    </div>
+  </mat-card-content>
+</mat-card>

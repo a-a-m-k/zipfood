@@ -1,0 +1,9 @@
+table {
+  width: 95%;
+  margin: 0 auto;
+}
+
+th, tr, td, .mat-header-cell {
+  text-align: center;
+  padding: 5px;
+}

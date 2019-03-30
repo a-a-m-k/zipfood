@@ -1,0 +1,7 @@
+::ng-deep .mat-form-field-wrapper {
+  padding-left: 5px;
+}
+
+::ng-deep .mat-form-field-appearance-legacy .mat-form-field-infix {
+    padding: 0.5em 0;
+}

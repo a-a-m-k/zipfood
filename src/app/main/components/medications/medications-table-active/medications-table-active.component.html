@@ -1,0 +1,143 @@
+<form 
+  [formGroup]="medicationsActiveForm"
+  (ngSubmit)="onSubmit(medicationsActiveForm)">
+  
+  <table 
+    mat-table
+    [dataSource]="dataSource"
+    class="mat-elevation-z8">
+
+    <ng-container matColumnDef="id">
+      <th mat-header-cell *matHeaderCellDef> ID </th>
+      <td 
+        mat-cell
+        (click)="editActiveMedication(element.id)"
+        *matCellDef="let element">
+        <span> {{element.id}} </span>
+      </td>
+    </ng-container>
+
+    <ng-container matColumnDef="date">
+      <th mat-header-cell *matHeaderCellDef> Date </th>
+      <td 
+        mat-cell
+        (click)="editActiveMedication(element.id)"
+        *matCellDef="let element">
+        <span> {{element.date | date:'short'}} </span>
+      </td>
+    </ng-container>
+
+    <ng-container matColumnDef="doctor">
+      <th mat-header-cell *matHeaderCellDef> Doctor </th>
+      <td 
+        mat-cell
+        (click)="editActiveMedication(element.id)"
+        *matCellDef="let element"> 
+        <span *ngIf="rowToEdit !== element.id"> {{element.doctor}} </span>
+        <span *ngIf="rowToEdit === element.id">     
+          <mat-form-field>
+            <input 
+              matInput type="text"
+              formControlName="doctor"
+              placeholder="Doctor">
+            <mat-error *ngIf="medicationsActiveForm.controls.doctor.hasError('required')">
+              This field is required
+            </mat-error>
+          </mat-form-field>
+        </span>
+      </td>
+    </ng-container>
+
+    <ng-container matColumnDef="drugs">
+      <th mat-header-cell *matHeaderCellDef> Drugs </th>
+      <td 
+        mat-cell 
+        (click)="editActiveMedication(element.id)"
+        *matCellDef="let element"> 
+        <span *ngIf="rowToEdit !== element.id"> {{element.drugs}} </span>
+        <span *ngIf="rowToEdit === element.id">
+          <mat-form-field class="textarea-field">
+            <textarea
+              matInput
+              formControlName="drugs"
+              placeholder="Drugs">
+            </textarea>
+            <mat-error *ngIf="medicationsActiveForm.controls.drugs.hasError('required')">
+              This field is required
+            </mat-error>
+          </mat-form-field>
+        </span>
+      </td>
+    </ng-container>
+
+    <ng-container matColumnDef="sig">
+      <th mat-header-cell *matHeaderCellDef> Sig </th>
+      <td 
+        mat-cell 
+        (click)="editActiveMedication(element.id)" 
+        *matCellDef="let element"> 
+        <span *ngIf="rowToEdit !== element.id"> {{element.sig}} </span>
+        <span *ngIf="rowToEdit === element.id">
+          <mat-form-field class="textarea-field">
+            <textarea 
+              matInput
+              type="text"
+              formControlName="sig"
+              placeholder="Sig">
+            </textarea>
+            <mat-error *ngIf="medicationsActiveForm.controls.sig.hasError('required')">
+              This field is required
+            </mat-error> 
+            <mat-error *ngIf="medicationsActiveForm.controls.sig.hasError('minlength')">
+              This field should contain at least 5 symbols
+            </mat-error>
+          </mat-form-field>
+        </span>
+      </td>
+    </ng-container> 
+    
+    <ng-container matColumnDef="actions">
+      <th mat-header-cell *matHeaderCellDef> Actions </th>
+      <td mat-cell *matCellDef="let element">
+        <button
+          mat-icon-button
+          type="submit"
+          [disabled]="medicationsActiveForm.invalid"
+          *ngIf="rowToEdit === element.id">
+          <mat-icon class="material-icons">
+            done
+          </mat-icon>
+        </button>
+
+        <button 
+          mat-icon-button
+          type="button"
+          *ngIf="rowToEdit === element.id"
+          (click)="cancel()">
+          <mat-icon class="material-icons">
+            undo
+          </mat-icon>
+        </button>
+
+        <button 
+          mat-icon-button
+          type="button"
+          (click)="moveActiveMedicationToHistory(element.id)">
+          <mat-icon class="material-icons">
+            delete
+          </mat-icon>
+        </button>
+
+      </td>
+    </ng-container>
+
+    <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+    <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+
+  </table>
+
+  <p *ngIf="!patient.medication.active[0]">
+    No medications to display
+  </p>
+
+</form>

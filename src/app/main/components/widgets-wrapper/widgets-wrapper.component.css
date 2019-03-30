@@ -1,0 +1,10 @@
+.widget-table-component {
+  width: 80%;
+  margin: 0 auto;
+  padding-top: 50px;
+}
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+}

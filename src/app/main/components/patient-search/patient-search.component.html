@@ -1,0 +1,11 @@
+<mat-form-field>
+  <input 
+    matInput
+    type="text" 
+    [formControl]="inputSearch"
+    placeholder="Search">
+</mat-form-field>
+<app-show-patients-list 
+  [patients]="patients | filterPatientsList: inputSearch.value"
+  (onSelectPatient)="selectedPatient($event)">
+</app-show-patients-list>

@@ -1,0 +1,9 @@
+<button 
+  mat-raised-button 
+  (click)="logout()"
+  *ngIf="authService.getToken()">
+  Logout
+</button>
+
+
+

@@ -1,0 +1,13 @@
+<div class="menu-sidenav" [ngClass]="{'menu-off': menuState === 'arrow_forward_ios', 'menu-on': menuState === 'arrow_back_ios'}">
+    <div>
+        <a (click)="toggleMenu()" class="menu-open-close-arrow">
+            <i class="material-icons">{{menuState}}</i>
+        </a>
+    </div>
+    <hr>
+    <div class="menu-item-wrapper" *ngFor="let menuItem of menuItemsData">
+        <a routerLink="{{menuItem.url}}" routerLinkActive="active">
+            <i class="material-icons">{{menuItem.icon}}</i>{{menuItem.name}}
+        </a>
+    </div>
+</div>

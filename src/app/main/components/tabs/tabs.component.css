@@ -1,0 +1,11 @@
+.tab-title {
+  margin: 20px 50px;
+  color: #3f51b5;
+  font-weight: 500;
+  font-size: 35px;
+}
+
+::ng-deep .mat-tab-header {
+  width: 95%;
+  margin: 0 auto;
+}

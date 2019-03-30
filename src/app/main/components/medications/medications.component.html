@@ -1,0 +1,10 @@
+<mat-tab-group>
+  <mat-tab label="Active">
+     <app-medications-table-active [patient]="patient">
+     </app-medications-table-active>
+  </mat-tab>
+  <mat-tab label="History">
+    <app-medications-table-history [patient]="patient">
+    </app-medications-table-history>
+  </mat-tab>
+</mat-tab-group>

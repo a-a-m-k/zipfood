@@ -1,0 +1,14 @@
+<div class="container flex">
+  <div class="patients-list-container">
+    <app-patient-search 
+      [patients]="patients"
+      (onSelectPatient)="selectPatient($event)" >
+    </app-patient-search>
+  </div>
+  <div class="tabs-container">
+    <app-tabs 
+      *ngIf="selectedPatient"
+      [patient]="selectedPatient" >
+    </app-tabs>
+  </div>
+</div>

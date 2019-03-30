@@ -1,0 +1,385 @@
+[
+  {
+    "id": "1",
+    "firstName": "John",
+    "lastName": "Doe",
+    "sex": "male",
+    "birthData":"21.12.1968",
+    "deathData":"",
+    "phone":"+38(099)-509-88-99",
+    "workPhone":"+38(099)-509-88-99",
+    "email":"john.smith@gmail.com",
+    "house":"12",
+    "street":"Svobody",
+    "city":"Lviv",
+    "zip":"099678",
+    "business":"architector",
+    "medication": {
+      "active": [
+        {
+          "id": 4,
+          "date": "Tue Oct 17 2017 03:00:00 GMT+0300",
+          "status": "active",
+          "doctor": "John Fox",
+          "drugs": "Vitamin K2 + D3 with Organic Coconut Oil",
+          "sig": "2 tablets per day"
+        },
+        {
+          "id": 3,      
+          "date": "Sat Mar 03 2018 02:00:00 GMT+0200",
+          "status": "active",
+          "doctor": "Patrick Ray",
+          "drugs": "Bronson Vitamin A 10,000 IU Premium Non-GMO",
+          "sig": "2 tablets per day"
+        },
+        {
+          "id": 2,      
+          "date": "Fri Oct 13 2017 03:00:00 GMT+0300",
+          "status": "active",
+          "doctor": "John Fox",
+          "drugs": "Vitamin K2 + D3 with Organic Coconut Oil",
+          "sig": "2 tablets per day"
+        }
+      ],
+      "history": [
+        {
+          "id": 1,
+          "startDate": "Mon Jul 24 2017 03:00:00 GMT+0300",
+          "doctor": "John Fox",
+          "stopDate": "Sun Sep 24 2017 03:00:00 GMT+0300",
+          "stopBy": "John Fox",
+          "drugs": "Vitamin B12 with injections"
+        },
+        {
+          "id": 0,
+          "startDate": "Wed Feb 01 2017 02:00:00 GMT+0200",
+          "doctor": "John Fox",
+          "stopDate": "Sun Sep 24 2017 03:00:00 GMT+0300",
+          "stopBy": "John Fox",
+          "drugs": "Multivitamin complex 90 caps"
+        }
+      ]
+    },
+    "diagnoses": [
+      {
+        "id": 2,
+        "name": "Allergy",
+        "diagnose": "Allergy shots and immunotherapy antihistamines asthma flare-up autoimmunity beta cells biopsy blood glucose meter cartilage dandruff depression dietitian nearsighted neurologist nicotine night guard occupational therapy red blood cells scar violence vitreous body.",
+        "date": "Thu Oct 12 2017 03:00:00 GMT+0300",
+        "resolved": ""
+      },
+      {
+        "id": 1,
+        "name": "Cold",
+        "diagnose": "Airways contagious exhale fatty acids gastroenteritis glycosylated hemoglobin test (hemoglobin a1c) grieving heat exhaustion night guard optician scar.",
+        "date": "Sun Jul 23 2017 03:00:00 GMT+0300",
+        "resolved": ""
+      },
+      {
+        "id": 0,
+        "name": "Vitaminoz",
+        "diagnose": "Sed elementum ultricies nibh, et blandit urna blandit eu. Mauris accumsan, erat id pulvinar vehicula, lectus dolor facilisis eros, vitae mollis dolor sem a ligula. Fusce ultricies, turpis vitae maximus cursus, nisl sapien vehicula sapien, et fringilla lacus magna in turpis. Etiam eros risus, mollis ut placerat a, tristique et elit.",
+        "date": "Thu Jan 26 2017 02:00:00 GMT+0200",
+        "resolved": ""
+      }    
+    ]
+  },
+
+   
+  {
+    "id": "2",
+    "firstName": "Ann",
+    "lastName": "Bureau",
+    "sex": "female",
+    "birthData": "15.07.1987",
+    "deathData": "",
+    "phone": "+38(063)-593-68-77",
+    "workPhone": "+38(063)-593-68-77",
+    "email": "ann.bureau@gmail.com",
+    "house": "45",
+    "street": "Grinchenko",
+    "city": "Lviv",
+    "zip": "79051",
+    "business": "teacher",
+    "medication":  {
+      "active": [
+        {
+          "id": 3,      
+          "date": "Sun Jun 25 2017 03:00:00 GMT+0300",
+          "status": "active",
+          "doctor": "Ros Smith",
+          "drugs": "Calcium D3 Nycomed",
+          "sig": "3 tablets per day"
+        },
+        {
+          "id": 2,      
+          "date": "Fri Dec 25 2015 02:00:00 GMT+0200",
+          "status": "active",
+          "doctor": "Patrick Ray",
+          "drugs": "Bronson Vitamin A 10,000 IU Premium Non-GMO",
+          "sig": "2 tablets per day"
+        }
+      ],
+      "history": [
+        {
+          "id": 1,
+          "startDate": "Mon Jul 24 2017 03:00:00 GMT+0300",
+          "doctor": "John Fox",
+          "stopDate": "Sun Sep 24 2017 03:00:00 GMT+0300",
+          "stopBy": "John Fox",
+          "drugs": "Vitamin B12"
+        },
+        {
+          "id": 0,
+          "startDate": "Wed Feb 01 2017 02:00:00 GMT+0200",
+          "doctor": "John Fox",
+          "stopDate": "Sun Sep 24 2017 03:00:00 GMT+0300",
+          "stopBy": "John Fox",
+          "drugs": "Multivitamin complex 50 caps"
+        }
+      ]
+    },
+    "diagnoses": [
+      {
+        "id": 2,
+        "name": "Bronchitis",
+        "diagnose": "Blood type controller medications disinfectants dislocation genes hay fever involuntary muscle petroleum jelly retractions surgery urticaria veins and arteries. Airway obstruction anemia asthma action plan conjunctivitis epidermis frostbite histamine hormone infection inhale junk food ketones lung function tests microscope nausea",
+        "date": "Tue Jul 28 0201 00:00:00 GMT+0202",
+        "resolved": ""
+      },
+      {
+        "id": 1,
+        "name": "Allergy",
+        "diagnose": "Aerobic activity antihistamines bacteria dislocation ear canal epiglottis gastric juices hormones insulin insulin pump intensive care unit involuntary muscle nausea orthodontist pollen radiologist stapes stress symptoms tonsillectomy wheeze.",
+        "date": "Sun Jul 03 2016 03:00:00 GMT+0300",
+        "resolved": ""
+      },
+      {
+        "id": 0,
+        "name": "Vitaminoz",
+        "diagnose": "Sed elementum ultricies nibh, et blandit urna blandit eu. Mauris accumsan, erat id pulvinar vehicula, lectus dolor facilisis eros, vitae mollis dolor sem a ligula. Fusce ultricies, turpis vitae maximus cursus, nisl sapien vehicula sapien, et fringilla lacus magna in turpis. Etiam eros risus, mollis ut placerat a, tristique et elit.",
+        "date": "Mon Jun 20 2016 03:00:00 GMT+0300",
+        "resolved": ""
+      }    
+    ]
+  },
+
+  {
+    "id": "3",
+    "firstName": "Linda",
+    "lastName": "Kaufman",
+    "sex": "female",
+    "birthData": "06.11.1973",
+    "deathData": "",
+    "phone": "+38(067)-953-84-79",
+    "workPhone": "+38(067)-953-84-79",
+    "email": "linda.kaufman@gmail.com",
+    "house": "66",
+    "street": "Tarnavskogo",
+    "city": "Lviv",
+    "zip": "79056",
+    "business": "accountant",
+    "medication": {
+      "active": [
+        {
+          "id": 3,      
+          "date": "Fri Nov 29 2013 02:00:00 GMT+0200",
+          "status": "active",
+          "doctor": "Patrick Ray",
+          "drugs": "Life Extension Bio-Active Complete B-Complex",
+          "sig": "2 tablets per day"
+        },
+        {
+          "id": 2,      
+          "date": "Fri Dec 25 2009 02:00:00 GMT+0200",
+          "status": "active",
+          "doctor": "Patrick Ray",
+          "drugs": "Bronson Vitamin A 10,000 IU Premium Non-GMO",
+          "sig": "2 tablets per day"
+        }
+      ],
+      "history": [
+        {
+          "id": 1,
+          "startDate": "Mon Jul 24 2017 03:00:00 GMT+0300",
+          "doctor": "John Fox",
+          "stopDate": "Sun Sep 24 2017 03:00:00 GMT+0300",
+          "stopBy": "John Fox",
+          "drugs": "Vitamin B12 with injections"
+        },
+        {
+          "id": 0,
+          "startDate": "Wed Feb 01 2017 02:00:00 GMT+0200",
+          "doctor": "John Fox",
+          "stopDate": "Sun Sep 24 2017 03:00:00 GMT+0300",
+          "stopBy": "John Fox",
+          "drugs": "Multivitamin complex 90 caps"
+        }
+      ]
+    },
+    "diagnoses": [
+      {
+        "id": 2,
+        "name": "Vitaminoz",
+        "diagnose": "Astringents conjunctivitis fatty acids genetics glycogen intensive care unit ketones lung function tests occupational therapist plaque prosthesis rescue medications ultrasound. Aerobic activity alcoholism allergen allergist carbohydrate constipation diarrhea exhale external otitis",
+        "date": "Tue Nov 26 2013 02:00:00 GMT+0200",
+        "resolved": ""
+      },
+      {
+        "id": 1,
+        "name": "Sunstroke",
+        "diagnose": "Allergist allergy bronchial tubes bronchoconstriction depression er eustachian tube fever gingivitis gluteus maximus growth hormone hay fever immune system immunizations joints lens nearsighted pulmonary skin test social worker strep screen symptoms tinnitus wisdom teeth x-ray.",
+        "date": "Wed Sep 25 2013 03:00:00 GMT+0300",
+        "resolved": ""
+      },
+      {
+        "id": 0,
+        "name": "Allergy",
+        "diagnose": "Sed elementum ultricies nibh, et blandit urna blandit eu. Mauris accumsan, erat id pulvinar vehicula, lectus dolor facilisis eros, vitae mollis dolor sem a ligula. Fusce ultricies, turpis vitae maximus cursus, nisl sapien vehicula sapien, et fringilla lacus magna in turpis. Etiam eros risus, mollis ut placerat a, tristique et elit.",
+        "date": "Sun May 12 2013 03:00:00 GMT+0300",
+        "resolved": ""
+      }    
+    ]
+  },
+  {
+    "id": "4",
+    "firstName": "Peter",
+    "lastName": "Parker",
+    "sex": "male",
+    "birthData": "26.03.1997",
+    "deathData": "",
+    "phone": "+38(066)-723-48-38",
+    "workPhone": "+38(066)-723-48-38",
+    "email": "peter.parker@gmail.com",
+    "house": "113a",
+    "street": "Liubinska",
+    "city": "Lviv",
+    "zip": "79057",
+    "business": "Spiderman",
+    "medication": {
+      "active": [
+        {
+          "id": 3,      
+          "date": "Fri Dec 25 2009 02:00:00 GMT+0200",
+          "status": "active",
+          "doctor": "Patrick Ray",
+          "drugs": "Bronson Vitamin A 10,000 IU Premium Non-GMO",
+          "sig": "2 tablets per day"
+        },
+        {
+          "id": 2,      
+          "date": "Thu Nov 12 2009 02:00:00 GMT+0200",
+          "status": "active",
+          "doctor": "Patrick Ray",
+          "drugs": "Vitamin K2 + D3 with Organic Coconut Oil",
+          "sig": "2 tablets per day"
+        }
+      ],
+      "history": [
+        {
+          "id": 1,
+          "startDate": "Mon Jul 24 2017 03:00:00 GMT+0300",
+          "doctor": "John Fox",
+          "stopDate": "Sun Sep 24 2017 03:00:00 GMT+0300",
+          "stopBy": "John Fox",
+          "drugs": "Vitamin B12 with injections"
+        },
+        {
+          "id": 0,
+          "startDate": "Wed Feb 01 2017 02:00:00 GMT+0200",
+          "doctor": "John Fox",
+          "stopDate": "Sun Sep 24 2017 03:00:00 GMT+0300",
+          "stopBy": "John Fox",
+          "drugs": "Multivitamin complex 90 caps"
+        }
+      ]
+    },
+    "diagnoses": [
+      {
+        "id": 2,
+        "name": "Seasonal Flu",
+        "diagnose": "Airway obstruction antihistamines beta cells bruise dislocation epiglottis frostbite gingivitis hematoma hypoglycemia influenza nearsighted plaque polydipsia retainer suture umbilical cord.",
+        "date": "Sun Jul 18 2010 03:00:00 GMT+0300",
+        "resolved": ""
+      },
+      {
+        "id": 1,
+        "name": "Seasonal Flu",
+        "diagnose": "Phasellus ullamcorper, tellus vitae malesuada lacinia, purus nisl dictum nunc, vitae mattis eros dui nec sapien. Sed sed leo in massa congue dictum.",
+        "date": "Sun Feb 01 2009 02:00:00 GMT+0200",
+        "resolved": ""
+      },
+      {
+        "id": 0,
+        "name": "Smoking and Tobacco Use",
+        "diagnose": "Sed elementum ultricies nibh, et blandit urna blandit eu. Mauris accumsan, erat id pulvinar vehicula, lectus dolor facilisis eros, vitae mollis dolor sem a ligula. Fusce ultricies, turpis vitae maximus cursus, nisl sapien vehicula sapien, et fringilla lacus magna in turpis. Etiam eros risus, mollis ut placerat a, tristique et elit.",
+        "date": "Fri Oct 08 2010 03:00:00 GMT+0300",
+        "resolved": ""
+      }    
+    ]
+  },
+  {
+    "id": "5",
+    "firstName": "Jeniffer",
+    "lastName": "Lourens",
+    "sex": "female",
+    "birthData": "26.03.1962",
+    "deathData": "",
+    "phone": "+38(093)-207-67-37",
+    "workPhone": "+38(093)-207-67-37",
+    "email": "jeniffer.lourens@gmail.com",
+    "house": "14",
+    "street": "Arhypenka",
+    "city": "Lviv",
+    "zip": "79052",
+    "business": "dentist",
+    "medication": {
+      "active": [
+        {
+          "id": 3,      
+          "date": "Mon Feb 05 2018 02:00:00 GMT+0200",
+          "status": "active",
+          "doctor": "John Fox",
+          "drugs": "Nature Made Vitamin D3 2000 IU Tablets 220",
+          "sig": "2 tablets per day"
+        },
+        {
+          "id": 2,      
+          "date": "Tue Sep 12 2017 03:00:00 GMT+0300",
+          "status": "active",
+          "doctor": "John Fox",
+          "drugs": "Vitamin K2 + D3 with Organic Coconut Oil",
+          "sig": "2 tablets per day"
+        }
+
+      ],
+      "history": [
+        {
+          "id": 1,
+          "startDate": "Mon Jul 24 2017 03:00:00 GMT+0300",
+          "doctor": "John Fox",
+          "stopDate": "Sun Sep 24 2017 03:00:00 GMT+0300",
+          "stopBy": "John Fox",
+          "drugs": "Vitamin B12 with injections"
+        },
+        {
+          "id": 0,
+          "startDate": "Wed Feb 01 2017 02:00:00 GMT+0200",
+          "doctor": "John Fox",
+          "stopDate": "Sun Sep 24 2017 03:00:00 GMT+0300",
+          "stopBy": "John Fox",
+          "drugs": "Multivitamin complex 90 caps"
+        }
+      ]
+    },
+    "diagnoses": [
+      {
+        "id": 0,
+        "name": "Bronchitis",
+        "diagnose": "Acne asthma flare-up bacteria bowels bruise dandruff emotions hydrogen peroxide ibuprofen joints laparoscopy larynx nervous system occupational therapist pediatric endocrinologist pinna polydipsia puberty pulse retina social worker stethoscope urine varicella zoster.",
+        "date": "Sat Jan 24 2015 02:00:00 GMT+0200",
+        "resolved": ""
+      }
+    ]
+  }
+]

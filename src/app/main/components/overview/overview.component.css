@@ -1,0 +1,36 @@
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.container, .login-container {
+  margin-left: 100px;
+  width: 90%;
+}
+
+.login-container {
+  justify-content:center;
+}
+
+.overview-description{
+    font-size: 20px;
+    font-style: italic;
+    line-height: 1.7;
+    padding: 0 25px;
+}
+
+.overview-title {
+  margin: 0 auto;
+  padding: 35px 0;
+  font-size: 48px;
+  font-weight: 400;
+}
+
+.overview-title span {
+  color: #FFA726;
+}
+
+.overview-container{
+  text-align: center;
+  font-family: Roboto,"Helvetica Neue", sans-serif;
+}

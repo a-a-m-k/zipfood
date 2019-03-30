@@ -1,0 +1,17 @@
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.container {
+  margin-left: 100px;
+  width: 90%;
+}
+
+.patients-list-container {
+  width: 17%; 
+}
+
+.tabs-container {
+  width: 83%;
+}

@@ -1,0 +1,20 @@
+image: node:latest
+
+stages:
+  - build
+
+cache:
+  paths:
+    - node_modules/
+
+before_script:
+  - npm install
+  - npm install -g @angular/cli
+
+pages:
+  stage: build
+  script:
+    - ng build --prod --output-path=./public --base-href=http://john3volta.gitlab.io/ui311-ang6/
+  artifacts:
+    paths:
+      - public

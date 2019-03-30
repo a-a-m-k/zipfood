@@ -1,0 +1,38 @@
+<table mat-table [dataSource]="dataSource" class="mat-elevation-z8">
+
+  <ng-container matColumnDef="id">
+    <th mat-header-cell *matHeaderCellDef> ID </th>
+    <td mat-cell *matCellDef="let element"> {{element.id}} </td>
+  </ng-container>
+
+  <ng-container matColumnDef="drugs">
+    <th mat-header-cell *matHeaderCellDef> Drugs </th>
+    <td mat-cell *matCellDef="let element"> {{element.drugs}} </td>
+  </ng-container>
+
+  <ng-container matColumnDef="startDate">
+    <th mat-header-cell *matHeaderCellDef> StartDate </th>
+    <td mat-cell *matCellDef="let element"> {{element.startDate | date:'short'}} </td>
+  </ng-container>
+
+  <ng-container matColumnDef="doctor">
+    <th mat-header-cell *matHeaderCellDef> Assigned By </th>
+    <td mat-cell *matCellDef="let element"> {{element.doctor}} </td>
+  </ng-container>
+
+  <ng-container matColumnDef="stopDate">
+    <th mat-header-cell *matHeaderCellDef> StopDate </th>
+    <td mat-cell *matCellDef="let element"> {{element.stopDate | date:'short'}} </td>
+  </ng-container>
+
+  <ng-container matColumnDef="stopBy">
+    <th mat-header-cell *matHeaderCellDef> Stopped By </th>
+    <td mat-cell *matCellDef="let element"> {{element.stopBy}} </td>
+  </ng-container>
+
+  <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+  <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+
+</table>
+
+<p *ngIf="!patient.medication.history[0]"> No medications to display </p>

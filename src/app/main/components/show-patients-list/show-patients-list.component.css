@@ -1,0 +1,10 @@
+.active {
+  background-color: #f8f8f8;
+  color: rgb(0, 0, 0); 
+  font-weight: bold;
+}
+
+.mat-list-item {
+  color: rgb(0, 0, 0.87);
+  opacity: 0.75;
+}

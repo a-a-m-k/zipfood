@@ -1,0 +1,9 @@
+<mat-nav-list>
+  <mat-list-item
+    role="listbox"
+    [ngClass]="{'active': isActive(patient.id)}"
+    *ngFor="let patient of sortedPatients; trackBy: trackById" 
+    (click)='selectPatient(patient.id)'>
+    {{patient.firstName}} {{patient.lastName}}
+  </mat-list-item>
+</mat-nav-list>
