@@ -20,7 +20,7 @@ export class MedicationsTableActiveComponent implements OnChanges {
         sig: [null, [Validators.required, Validators.minLength(5)]]
       });
     }
-  displayedColumns = ["id", "date", "doctor", "drugs", "sig", "actions"];
+  displayedColumns = ["id", "date", "doctor", "drugs", "actions"];
   dataSource;
   medicationsActiveForm: FormGroup;
   rowToEdit;

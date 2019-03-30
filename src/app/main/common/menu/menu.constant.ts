@@ -14,12 +14,12 @@ export const MENU_ITEMS_DATA: MenuItemsInterface = [
       url: 'overview'
     },
     {
-      name: 'Patients',
+      name: 'Food providers',
       icon: 'people',
       url: 'patients'
     },
     {
-      name: 'Admin',
+      name: 'User profile',
       icon: 'account_circle',
       url: 'admin'
     }

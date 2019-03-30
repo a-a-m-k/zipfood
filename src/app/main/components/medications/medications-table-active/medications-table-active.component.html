@@ -28,7 +28,7 @@
     </ng-container>
 
     <ng-container matColumnDef="doctor">
-      <th mat-header-cell *matHeaderCellDef> Doctor </th>
+      <th mat-header-cell *matHeaderCellDef> Dish </th>
       <td 
         mat-cell
         (click)="editActiveMedication(element.id)"
@@ -49,7 +49,7 @@
     </ng-container>
 
     <ng-container matColumnDef="drugs">
-      <th mat-header-cell *matHeaderCellDef> Drugs </th>
+      <th mat-header-cell *matHeaderCellDef> Ingredients </th>
       <td 
         mat-cell 
         (click)="editActiveMedication(element.id)"
@@ -69,32 +69,6 @@
         </span>
       </td>
     </ng-container>
-
-    <ng-container matColumnDef="sig">
-      <th mat-header-cell *matHeaderCellDef> Sig </th>
-      <td 
-        mat-cell 
-        (click)="editActiveMedication(element.id)" 
-        *matCellDef="let element"> 
-        <span *ngIf="rowToEdit !== element.id"> {{element.sig}} </span>
-        <span *ngIf="rowToEdit === element.id">
-          <mat-form-field class="textarea-field">
-            <textarea 
-              matInput
-              type="text"
-              formControlName="sig"
-              placeholder="Sig">
-            </textarea>
-            <mat-error *ngIf="medicationsActiveForm.controls.sig.hasError('required')">
-              This field is required
-            </mat-error> 
-            <mat-error *ngIf="medicationsActiveForm.controls.sig.hasError('minlength')">
-              This field should contain at least 5 symbols
-            </mat-error>
-          </mat-form-field>
-        </span>
-      </td>
-    </ng-container> 
     
     <ng-container matColumnDef="actions">
       <th mat-header-cell *matHeaderCellDef> Actions </th>

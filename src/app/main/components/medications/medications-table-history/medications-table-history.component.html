@@ -6,12 +6,12 @@
   </ng-container>
 
   <ng-container matColumnDef="drugs">
-    <th mat-header-cell *matHeaderCellDef> Drugs </th>
+    <th mat-header-cell *matHeaderCellDef> Dish </th>
     <td mat-cell *matCellDef="let element"> {{element.drugs}} </td>
   </ng-container>
 
   <ng-container matColumnDef="startDate">
-    <th mat-header-cell *matHeaderCellDef> StartDate </th>
+    <th mat-header-cell *matHeaderCellDef> Date </th>
     <td mat-cell *matCellDef="let element"> {{element.startDate | date:'short'}} </td>
   </ng-container>
 
@@ -20,13 +20,13 @@
     <td mat-cell *matCellDef="let element"> {{element.doctor}} </td>
   </ng-container>
 
-  <ng-container matColumnDef="stopDate">
-    <th mat-header-cell *matHeaderCellDef> StopDate </th>
-    <td mat-cell *matCellDef="let element"> {{element.stopDate | date:'short'}} </td>
+  <ng-container matColumnDef="stopBy">
+    <th mat-header-cell *matHeaderCellDef> Customer </th>
+    <td mat-cell *matCellDef="let element"> {{element.stopBy}} </td>
   </ng-container>
 
-  <ng-container matColumnDef="stopBy">
-    <th mat-header-cell *matHeaderCellDef> Stopped By </th>
+  <ng-container matColumnDef="review">
+    <th mat-header-cell *matHeaderCellDef> Review </th>
     <td mat-cell *matCellDef="let element"> {{element.stopBy}} </td>
   </ng-container>
 
