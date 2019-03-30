@@ -33,7 +33,7 @@
         mat-cell
         (click)="editActiveMedication(element.id)"
         *matCellDef="let element"> 
-        <span *ngIf="rowToEdit !== element.id"> {{element.doctor}} </span>
+        <span *ngIf="rowToEdit !== element.id"> {{element.date}} </span>
         <span *ngIf="rowToEdit === element.id">     
           <mat-form-field>
             <input 
