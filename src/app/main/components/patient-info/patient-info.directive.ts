@@ -10,7 +10,7 @@ export class PatientInfoDirective implements OnChanges {
   constructor(private el: ElementRef) { }
 
   ngOnChanges() {
-    this.setIconColor(this.patientIconColor);
+    this.setIconColor("gold");
   }
 
   setIconColor(color) {
