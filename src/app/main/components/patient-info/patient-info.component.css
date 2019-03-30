@@ -14,7 +14,7 @@
 
 .info-title{
   margin: 20px 50px;
-  color: #3f51b5;
+  color: gold;
   font-weight: 500;
   font-size: 35px;
 }
@@ -36,7 +36,7 @@
   flex-wrap: wrap;
 }
 
-.list-item-container, 
+.list-item-container,
 .patient-info-container,
 .widgets-wrapper-container {
   width: 100%;
