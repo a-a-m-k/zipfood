@@ -47,7 +47,8 @@
           "startDate": "Chocolate macaroon cake",
           "doctor": "John Fox",
           "stopDate": "Fri Jul 13 2018 16:44:20 GMT+0300",
-          "stopBy": "John Fox",
+          "stopBy": "The cake was totally wonderful, although I couldn't get any drinks to it.
+          The cook was really nice to talk to, and the accomodation was also nice. I give him 4/5",
           "drugs": "egg white, sugar, vanilla extract, cocoa powder, milk"
         },
         {
@@ -55,7 +56,7 @@
           "startDate": "Stir-fried scallops and prawns",
           "doctor": "John Fox",
           "stopDate": "Fri Jul 13 2018 16:44:20 GMT+0300",
-          "stopBy": "John Fox",
+          "stopBy": "I really disregard the irresponsibility of this particular seller. He didn't even start to cook by the time I was there! 1/5",
           "drugs": "juice of 1 lemon, dried wakame seaweed, raw tiger prawns ,soy sauce"
         }
       ]
@@ -102,7 +103,7 @@
           "startDate": "Green bean minestrone",
           "doctor": "John Fox",
           "stopDate": "Green bean minestrone",
-          "stopBy": "John Fox",
+          "stopBy": "Well the service was good, as well as the food, but the room and all the furniure was so scruffy and unclean, that I was getting concerned of becoming sick. 3/5",
           "drugs": "onion, carrot, garlic, celery, olives, leaf, bread, pasta"
         },
         {
@@ -110,7 +111,7 @@
           "startDate": "The best chunky spaghetti Bolognese",
           "doctor": "John Fox",
           "stopDate": "The best chunky spaghetti Bolognese",
-          "stopBy": "John Fox",
+          "stopBy": "WOW! The title spells it for itself. This was literally the best spaghetti-thingie that I have ever had! Magnificent! John even turned on some Netflix series to make my visit more entertaining. That's why I pait him extra fee up-front: his reviews are promising great service for hence relevant price. 5/5",
           "drugs": "onions, beef, garlic, red pepper, 200g mushrooms, bolognese sauce, spaghetti, oregano"
         }
       ]
@@ -123,6 +124,7 @@
         "date": "Fri Dec 04 2015 07:09:11 GMT+0300",
         "resolved": ""
       },
+
       {
         "id": 1,
         "name": "Allergy",
@@ -179,7 +181,7 @@
           "startDate": "Basic Pasta Salad",
           "doctor": "John Fox",
           "stopDate": "Sun Sep 17 2017 03:00:00 GMT+0300",
-          "stopBy": "John Fox",
+          "stopBy": "Really good salad. The container didn't spill and I have successfully brought my food in the class. I didn't quite like the paper finish of the dish, but everything else was great. Thanks John! 4/5",
           "drugs": "penne pasta, cucumbers, mayonnaise, sour cream, dried dill, lemon pepper"
         },
         {
@@ -187,7 +189,7 @@
           "startDate": "Cabbage peanut salad",
           "doctor": "John Fox",
           "stopDate": "Cabbage peanut salad",
-          "stopBy": "John Fox",
+          "stopBy": "Quite nice Salad. The tomatoes thugh weren't too fresh. 3/5",
           "drugs": "seisame oil, apple vinegar, roasted peanuts, head of cabbage, fresh mint leaves, cut cucumbers"
         }
       ]
@@ -256,7 +258,7 @@
           "startDate": "Twice-cooked sticky duck",
           "doctor": "John Fox",
           "stopDate": "Twice-cooked sticky duck",
-          "stopBy": "John Fox",
+          "stopBy": "I didn't like the duck at all. It wasn't properly washed and, moreover, John wasn't welcome to see me, even though he promised me so. I had to eat my duck outside in the pouring rain. 1/5",
           "drugs": "strip pared orange zest, duck legs, garlic cloves, sliced ginger, dark soy sauce, halved and sliced cucumber, coriander leaves, honey, chineese five-spice powder"
         },
         {
@@ -264,7 +266,7 @@
           "startDate": "Easy tomato and pepper low fat soup",
           "doctor": "John Fox",
           "stopDate": "Easy tomato and pepper low fat soup",
-          "stopBy": "John Fox",
+          "stopBy": "Awesome. John knows the right proportions of salt and pepper. Gladly, I can worship his skills for such a comfortable price! 5/5",
           "drugs": "two onions chopped, yellow peppers, 2 cloves garic, 3 teaspoons of dried herbs, fat cooking spray"
         }
       ]
@@ -333,15 +335,16 @@
           "startDate": "Teriyaki salmon with sesame pak choi",
           "doctor": "John Fox",
           "stopDate": "Teriyaki salmon with sesame pak choi",
-          "stopBy": "John Fox",
+          "stopBy": "I told him I am allergic to chili sauce, but when I came, Teriyaki was overpoured with it, as if i didn't tell him. And he still demanded money! Unacceptible. 1/5 ",
           "drugs": "salmon fillets, sweet chili sauce, dry cherry, brown rice, vegetable oil, sesame oil, fish and vegetable stock "
+
         },
         {
           "id": 0,
           "startDate": "Beef Burgundy",
           "doctor": "John Fox",
           "stopDate": "Beef Burgundy",
-          "stopBy": "John Fox",
+          "stopBy": "The best beef burghundy in the city, whilst not quite the best packaging to it... 4/5",
           "drugs": "stewing steak, red wine, fresh parsley, thyme, leaf, butter, flour, beef stock, salt and pepper, button mushrooms"
         }
       ]
